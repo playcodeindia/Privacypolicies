@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PLAYCODE OFFICIAL</title>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-color: #333;
+            --light-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --warning-color: #dc2626;
+            --success-color: #059669;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .logo-icon {
+            font-size: 2.8rem;
+        }
+        
+        .last-updated {
+            font-style: italic;
+            opacity: 0.9;
+            margin-top: 5px;
+            font-size: 0.95rem;
+        }
+        
+        .website-link {
+            color: #93c5fd;
+            text-decoration: none;
+            border-bottom: 1px dotted #93c5fd;
+            margin-top: 8px;
+            display: inline-block;
+        }
+        
+        .website-link:hover {
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        
+        .policy-content {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin: 20px 0 10px 0;
+            font-size: 1.2rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .disclaimer-box {
+            background-color: #fef2f2;
+            border-left: 4px solid var(--warning-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .info-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .warning {
+            color: var(--warning-color);
+            font-weight: bold;
+        }
+        
+        .country-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .country-tag {
+            background-color: #e0f2fe;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .highlight {
+            background-color: #fef3c7;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px 0;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 30px;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 100;
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            header {
+                padding: 20px 0;
+            }
+            
+            .policy-content {
+                padding: 20px;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🔒</span>
+                <span>PLAYCODE OFFICIAL</span>
+            </div>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last updated: December 2025</p>
+            <a href="https://playcodeagent.blogspot.com/" class="website-link" target="_blank">https://playcodeagent.blogspot.com/</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="policy-content">
+            <div class="section">
+                <p>Welcome to PLAYCODE OFFICIAL. Your privacy is very important to us. This Privacy Policy explains how we collect, use, protect, and handle your personal information when you use our website and services.</p>
+            </div>
+            
+            <div class="section">
+                <h2>1. About Us</h2>
+                <p>PLAYCODE OFFICIAL is an independent digital service provider that offers digital gift card / redeem code services.</p>
+                <div class="disclaimer-box">
+                    <p class="warning">⚠️ Disclaimer:</p>
+                    <p>PLAYCODE OFFICIAL is affiliated, associated, authorized, endorsed by, or officially connected with Google LLC .</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>2. Countries We Serve</h2>
+                <p>We primarily serve users from:</p>
+                <div class="country-list">
+                    <span class="country-tag">India</span>
+                    <span class="country-tag">Pakistan</span>
+                    <span class="country-tag">Bangladesh</span>
+                    <span class="country-tag">Sri Lanka</span>
+                </div>
+                <p>We also serve users from:</p>
+                <div class="country-list">
+                    <span class="country-tag">Japan</span>
+                    <span class="country-tag">South Korea</span>
+                    <span class="country-tag">England</span>
+                </div>
+                <p>Users from the USA and Mexico are served through separate domains and servers.</p>
+            </div>
+            
+            <div class="section">
+                <h2>3. Information We Collect</h2>
+                <p>We may collect the following user information:</p>
+                <ul>
+                    <li>Full Name</li>
+                    <li>Phone Number</li>
+                    <li>Email Address</li>
+                    <li>Age</li>
+                    <li>Address</li>
+                    <li>Government / Student ID Proof (for age verification only)</li>
+                </ul>
+                <div class="info-box">
+                    <p>📌 <strong>Important:</strong></p>
+                    <p>ID proof is collected only to verify age and identity and is stored securely in our high-end secure data centers.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>4. Age Requirement</h2>
+                <p>Our services are available to users aged <span class="highlight">10 years and above</span>.</p>
+                <p>If a user is found to be under the minimum age requirement, access to services may be denied.</p>
+            </div>
+            
+            <div class="section">
+                <h2>5. How We Use Your Information</h2>
+                <p>We use user information to:</p>
+                <ul>
+                    <li>Verify identity and age</li>
+                    <li>Process orders</li>
+                    <li>Deliver redeem codes</li>
+                    <li>Prevent fraud and misuse</li>
+                    <li>Provide customer support</li>
+                </ul>
+                <p>We do <strong>not</strong> sell, rent, or trade your personal information to third parties.</p>
+            </div>
+            
+            <div class="section">
+                <h2>6. Email Login System</h2>
+                <p>We use an email-based login system.</p>
+                <p>Our system automatically checks whether an email address is already registered or not to prevent misuse.</p>
+            </div>
+            
+            <div class="section">
+                <h2>7. Cookies</h2>
+                <p>PLAYCODE OFFICIAL does not use cookies for tracking, advertising, or analytics.</p>
+            </div>
+            
+            <div class="section">
+                <h2>8. Payments</h2>
+                <p>Payments are made directly to our authorized agents via:</p>
+                <ul>
+                    <li>UPI</li>
+                    <li>Cash</li>
+                    <li>Other approved offline methods</li>
+                </ul>
+                <div class="disclaimer-box">
+                    <p class="warning">⚠️ Disclaimer:</p>
+                    <p>We are not responsible for payments made to unauthorized or fake agents. Users must ensure they are dealing with official PLAYCODE OFFICIAL agents only.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>9. Code Delivery</h2>
+                <p>Redeem codes are delivered to the registered email address.</p>
+                <p><strong>Delivery time:</strong></p>
+                <ul>
+                    <li>Usually within <span class="highlight">30 minutes</span></li>
+                    <li>Maximum <span class="highlight">24 hours</span>, depending on server load</li>
+                </ul>
+                <p>All codes are manually verified before delivery.</p>
+            </div>
+            
+            <div class="section">
+                <h2>10. Invalid or Used Code Policy</h2>
+                <p>If a code is found invalid or used:</p>
+                <ul>
+                    <li>A replacement code will be provided</li>
+                    <li>Replacement is processed within <span class="highlight">12 hours</span></li>
+                    <li>No cash refund is provided; replacement code will be issued instead</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>11. Data Security</h2>
+                <p>We use advanced security measures to protect user data, including:</p>
+                <ul>
+                    <li>Secure storage systems</li>
+                    <li>Restricted access</li>
+                    <li>Encrypted environments</li>
+                </ul>
+                <p>However, no online system is 100% secure, and users share information at their own risk.</p>
+            </div>
+            
+            <div class="section">
+                <h2>12. Account Suspension</h2>
+                <p>We reserve the right to suspend or block any user account if:</p>
+                <ul>
+                    <li>False information is provided</li>
+                    <li>Fraudulent activity is detected</li>
+                    <li>Our terms or policies are violated</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>13. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy at any time.</p>
+                <p>Changes will be effective immediately once posted on this page.</p>
+            </div>
+            
+            <div class="section">
+                <h2>14. Contact Us</h2>
+                <p>For any privacy-related questions or support, contact us through the official communication method provided on our website.</p>
+                <div class="contact-info">
+                    <h3>Privacy Support</h3>
+                    <p>Please use the official communication method provided on our website for privacy-related inquiries.</p>
+                    <p>We are committed to addressing your concerns promptly and effectively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 PLAYCODE OFFICIAL. All rights reserved.</p>
+            <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website.</p>
+        </div>
+    </footer>
+    
+    <a href="#" class="back-to-top">↑</a>
+    
+    <script>
+        // Smooth scrolling for back to top button
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Show/hide back to top button based on scroll position
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'flex';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+        
+        // Initially hide the back to top button
+        document.querySelector('.back-to-top').style.display = 'none';
+        
+        // Update year automatically
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearElements = document.querySelectorAll('footer p');
+            const currentYear = new Date().getFullYear();
+            
+            yearElements.forEach(el => {
+                if (el.textContent.includes('2025')) {
+                    el.textContent = el.textContent.replace('2025', currentYear);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
